@@ -18,7 +18,7 @@ public class L47_VipadayshieSpiski {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        driver.get("https://test.pkwteile.at/autozubehoer/schneeketten");
+        driver.get("https://pkwteile.at/autozubehoer/schneeketten");
 
         driver.findElement(By.xpath("//label[text()='Breite']/following-sibling::div/select[@name='snow-chains-filter[width]']")).click();
         driver.findElement(By.xpath("//option[@value='145']")).click();

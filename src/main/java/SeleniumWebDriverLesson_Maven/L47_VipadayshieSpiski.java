@@ -26,7 +26,6 @@ public class L47_VipadayshieSpiski {
         driver.findElement(By.xpath("//label[text()='Höhe']/following-sibling::div/select[@name='snow-chains-filter[cross-sections]']")).click();
         driver.findElement(By.xpath("//option[@value='60']")).click();
 
-
         driver.findElement(By.xpath("//span[text()='Suchen']")).click();
 
         driver.quit();

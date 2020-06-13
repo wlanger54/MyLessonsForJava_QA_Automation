@@ -27,7 +27,7 @@ public class L40_MainClass {
         driver.navigate().back();
         driver.navigate().forward();
 
-        System.out.println(driver.getTitle());        // Выводит в консоле ьайтл страницы
+        System.out.println(driver.getTitle());        // Выводит в консоле тайтл страницы
         System.out.println(driver.getCurrentUrl());
 
 
